@@ -1,14 +1,15 @@
 <html>
 <head>
-<src>
-
+<script>
+  function setup() {
   for (int i=0; i<12; i++) {
     document.getElementById("check").add("<div>"+i+"</div");                    
   }
+  }
   
-</src>
+</script>
 </head>
-<body>
+<body onload="setup()">
 <div id="check"></div>
 </body>
 </html>
